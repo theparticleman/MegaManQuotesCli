@@ -4,4 +4,4 @@ A web interface is also available at [megamanquotes.com](https://megamanquotes.c
 
 The current release is available for Windows 10+ (x64), MacOS (x64), and Linux (x64). If you have any problems with any of the versions, let me know.
 
-![Mega Man Quotes](Mega Man Quotes.gif)
+![Mega Man Quotes](mega-man-quotes.gif)
