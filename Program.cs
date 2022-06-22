@@ -12,7 +12,7 @@ var quote = JsonSerializer.Deserialize<Quote>(quoteString, new JsonSerializerOpt
 var authorString = $"\t- {quote.Author}";
 if (!string.IsNullOrEmpty(quote.Source)) authorString += $" ({quote.Source})";
 
-
+var permalink = $"\t  {quote.Permalink}";
 
 AnsiConsole.WriteLine();
 AnsiConsole.Write(new FigletText("Mega Man Quotes").Centered());
@@ -24,5 +24,7 @@ AnsiConsole.WriteLine();
 AnsiConsole.WriteLine(quote.Text);
 AnsiConsole.WriteLine();
 AnsiConsole.WriteLine(authorString);
+AnsiConsole.WriteLine();
+AnsiConsole.WriteLine(permalink);
 AnsiConsole.WriteLine();
 AnsiConsole.WriteLine();
